@@ -1,0 +1,19 @@
+<% include header.ejs %>
+
+<% include nav %>
+
+<div class="well jumbotron">
+<h1><%= title %></h1>
+<p>This is a subfrom page</p>
+
+<form method="POST">
+Username: <input type="text" id="txtUserName" name="txtUserName">
+<br>
+Password: <input type="password" id="txtUserPWD" name="txtUserPWD">
+<br>
+<input type="submit" value="Submit">
+</form>
+
+</div>
+
+<% include footer.ejs %>
